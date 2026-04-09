@@ -10,9 +10,7 @@ void main() {
       almacen.recepcionarPaquete(p2, 0, 1);
       almacen.recepcionarPaquete(p3, 1, 0);
       almacen.recepcionarPaquete(p4, 2, 2);
-
-      System.out.println("\n 2. DESPACHO AL CAMIÓN ");
-
+      System.out.println();
       almacen.enviarACamion(0, 0);
       almacen.enviarACamion(0, 1);
 
